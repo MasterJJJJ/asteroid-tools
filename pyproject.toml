@@ -129,7 +129,7 @@ installer = "uv"
 #--------------- Build and check your package ---------------#
 
 # This table installs the tools you need to test and build your package
-[tool.hatch.envs.build]
+[tool.hatch.envs.pkg]
 description = """Test the installation the package."""
 features = [
     "build",
@@ -137,7 +137,7 @@ features = [
 detached = true
 
 # This table installs created the command hatch run install:check which will build and check your package.
-[tool.hatch.envs.build.scripts]
+[tool.hatch.envs.pkg.scripts]
 check = [
     "hatch build {args:--clean}",
     "twine check dist/*",
