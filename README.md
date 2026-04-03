@@ -2,7 +2,7 @@
 
 |        |        |
 |--------|--------|
-| Package | [![Latest PyPI Version](https://img.shields.io/pypi/v/package-for-group-project-for-dsci310.svg)](https://pypi.org/project/package-for-group-project-for-dsci310/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/package-for-group-project-for-dsci310.svg)](https://pypi.org/project/package-for-group-project-for-dsci310/)  |
+| Package | [![Latest PyPI Version](https://img.shields.io/pypi/v/asteroid-tools.svg)](https://pypi.org/project/asteroid-tools/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/asteroid-tools.svg)](https://pypi.org/project/asteroid-tools/)  |
 | Meta   | [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md) |
 
 *TODO: the above badges that indicate python version and package version will only work if your package is on PyPI.
@@ -15,16 +15,15 @@ asteroid_tools is a project that provides small utility functions used in the DS
 You can install this package into your preferred Python environment using pip:
 
 ```bash
-$ pip install package-for-group-project-for-dsci310
+$ pip install asteroid-tools
 ```
 
 TODO: Add a brief example of how to use the package to this section
 
-To use package-for-group-project-for-dsci310 in your code:
+To use asteroid_tools in your code:
 
 ```python
->>> import package-for-group-project-for-dsci310
->>> package-for-group-project-for-dsci310.hello_world()
+>>> from asteroid_tools import drop_columns, get_knn_param_grid
 ```
 
 ## Copyright
