@@ -25,6 +25,7 @@ To use asteroid_tools in your code:
 ```python
 >>> from asteroid_tools import drop_columns, get_knn_param_grid
 ```
+`asteroid_tools` is also available on TestPyPI: [https://test.pypi.org/project/asteroid-tools/](https://test.pypi.org/project/asteroid-tools/).
 
 ## Copyright
 
